@@ -1,3 +1,8 @@
+## Working on the layout
+
+Template for Front-End : ( https://preview.themeforest.net/item/ciseco-shop-ecommerce-nextjs-template/full_screen_preview/44210635?_ga=2.957617.1890670905.1721304765-315468982.1721199691 )
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
