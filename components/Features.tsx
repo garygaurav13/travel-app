@@ -25,18 +25,19 @@ const Feature = () => {
               className='absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]'
             />
             <h2 className='bold-40 lg:bold-64'>Our Features</h2>
+
+            <ul className='mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20'>
+                {FEATURES.map((feature)=> (
+                  <FeatureItem 
+                    key={feature.title}
+                    title={feature.title}
+                    icon={feature.icon}
+                    description={feature.description}
+                  />
+                ))}
+            </ul>
           </div>
         </div>
-        <ul className='mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20'>
-            {FEATURES.map((feature)=> (
-              <FeatureItem 
-                key={feature.title}
-                title={feature.title}
-                icon={feature.icon}
-                description={feature.description}
-              />
-            ))}
-        </ul>
       </div>
     </section>
   )
