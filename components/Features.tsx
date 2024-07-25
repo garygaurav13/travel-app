@@ -45,11 +45,11 @@ const Feature = () => {
 type FeatureItem = {
   title:string;
   icon: string;
-  // variant:string;
+  variant?:string;
   description:string;
 }
 
-const FeatureItem = ({ title, icon, description }: FeatureItem) => {
+const FeatureItem = ({ title, icon, variant, description }: FeatureItem) => {
   return (
     <li className='flex w-full flex-1 flex-col items-start'>
         <div className='rounded-full p-4 lg:p7 bg-green-50'>
